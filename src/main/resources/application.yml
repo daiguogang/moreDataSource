@@ -1,0 +1,13 @@
+spring:
+  # 数据源配置
+  datasource:
+    ds1: #数据源1
+      driver-class-name: com.mysql.jdbc.Driver # mysql的驱动你可以配置别的关系型数据库
+      url: jdbc:mysql://localhost:3306/leilema # 数据源地址
+      username: root # 用户名
+      password: 111111 # 密码
+    ds2: # 数据源2
+      driver-class-name: org.postgresql.Driver # mysql的驱动你可以配置别的关系型数据库
+      url: jdbc:postgresql://localhost:5432/dgg_study1 #db2#数据源地址
+      username: dgg # 用户名
+      password: 123456 # 密码
